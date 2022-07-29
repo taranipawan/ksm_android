@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
     android:padding="16dp"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_logo"/>
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:textAllCaps="false"
-        android:text="Satsang List" />
+        android:id="@+id/btnSatsangList"
+        android:text="सत्संग लिस्ट" />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnNitnem"
+        android:text="नितनेम" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnGurpurab"
+        android:text="गुरपूरब तिथियां" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnJapjiSahib"
+        android:text="श्री जपुजी साहिब" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnSukhmaniSahib"
+        android:text="श्री सुखमनी साहिब" />
+
+</LinearLayout>

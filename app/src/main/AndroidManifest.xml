@@ -14,8 +14,20 @@
         android:theme="@style/Theme.Ksm"
         tools:targetApi="31">
         <activity
-            android:name=".sukhmani_sahib"
+            android:name=".JapJiSahib"
             android:exported="false" />
+        <activity
+            android:name=".Gurpurab"
+            android:exported="false" />
+        <activity
+            android:name=".Nitnem"
+            android:exported="false" />
+        <activity
+            android:name=".SatsangList"
+            android:exported="false" />
+        <activity
+            android:name=".SukhmaniSahib"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
