@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_gurpurab.xml" value="0.34103260869565216" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_jap_ji_sahib.xml" value="0.28894927536231885" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_load_pdffile.xml" value="0.28894927536231885" />
         <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_nitnem.xml" value="0.2418478260869565" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_satsang_list.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/activity_sukhmani_sahib.xml" value="0.1503623188405797" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/layout_gurpurab_list.xml" value="0.34103260869565216" />
+        <entry key="..\:/AndroidProjects/ksm/app/src/main/res/layout/layout_satsang_list.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

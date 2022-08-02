@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnSatsangList"
         android:text="सत्संग लिस्ट" />
 
@@ -27,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnNitnem"
         android:text="नितनेम" />
 
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnGurpurab"
         android:text="गुरपूरब तिथियां" />
 
@@ -43,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnJapjiSahib"
         android:text="श्री जपुजी साहिब" />
 
@@ -51,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnSukhmaniSahib"
         android:text="श्री सुखमनी साहिब" />
 
