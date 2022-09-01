@@ -81,6 +81,6 @@ public class MainActivity extends AppCompatActivity {
         /*
          * Displaying a notification locally
          */
-        MyNotificationManager.getInstance(this).displayNotification("Greetings", "Hello how are you?");
+        // MyNotificationManager.getInstance(this).displayNotification("Greetings", "Hello how are you?");
     }
 }
