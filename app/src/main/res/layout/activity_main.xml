@@ -7,56 +7,72 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:padding="16dp"
+    android:weightSum="10"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/splash_logo"/>
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:src="@drawable/splash_logo_copy"/>
 
-    <Button
+    <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:id="@+id/btnSatsangList"
-        android:text="सत्संग लिस्ट" />
+        android:layout_weight="3">
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:id="@+id/btnNitnem"
-        android:text="नितनेम" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:id="@+id/btnGurpurab"
-        android:text="गुरपूरब तिथियां" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/btnSatsangList"
+                android:text="सत्संग लिस्ट" />
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:id="@+id/btnJapjiSahib"
-        android:text="श्री जपुजी साहिब" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/btnNitnem"
+                android:text="नितनेम" />
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:id="@+id/btnSukhmaniSahib"
-        android:text="श्री सुखमनी साहिब" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/btnGurpurab"
+                android:text="गुरपूरब तिथियां" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/btnJapjiSahib"
+                android:text="श्री जपुजी साहिब" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:id="@+id/btnSukhmaniSahib"
+                android:text="श्री सुखमनी साहिब" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
